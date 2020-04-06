@@ -3,7 +3,7 @@ Check DNS compatibility with Extension DNS (EDNS(0))
 
 build: gcc edns.c -out edns
 
-usage is: edns <domain-name> <DNS server IP address> [dnssec | txt]
+usage is: edns [domain-name] [DNS server IP address] [dnssec | txt]
   
 If the DNS response is <512, the code displays the message that there's insufficient data. (payload must be >512 bytes>
 
